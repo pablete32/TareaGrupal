@@ -2,23 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+    <title>Tarea Grupal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./estilos.css/home.css" />
+
 </head>
+<!--ENCABEZADO Y BARRA DE NAVEGACION-->
 
 <body>
-    <!--BARRA DE NAVEGACION-->
+
     <header>
 
-        <nav>
-            <a href=""><img src="rsz_cl.jpg" title="Cafe Love"></a>
-            <ul>
+        <nav class="nav">
+            <a><img class="logo" src="./assets/logo.jpg" title="Love to Code and Coffee" r></a>
+            <ul class="nav">
                 <li>
                     <a href="#">Inicio</a>
                 </li>
                 <li>
-                    <a href="">Ubicacion</a>
+                    <a href="./ubicacion.html">Ubicacion</a>
                 </li>
                 <li>
                     <a href="./menu.html">Menu</a>
@@ -28,72 +32,186 @@
                 </li>
             </ul>
         </nav>
-        <div>
-            <h1>Cafe Love</h1>
-            <p>El mejor cafe de la ciudad</p>
+        <div class="code">
+            <h1>CODE CAFFE</h1>
+
         </div>
     </header>
     <section>
-        <p>
-            Trabajando con caficultores responsables que usan tratamientos ecologicos.
-        </p>
+        <div class="container mt-5 mb-5">
+            <div class="row justify-content-between">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="tarjeta">
+                        <div title="Caficultero trabajando en maquina de cafe" class="code" style="
+                            background-image: url(./assets/rsz_yanapi-senaud-6hr8vpjyuho-unsplash.jpg)
+                    "></div>
 
-
-        <h1>Buena Inversion</h1>
-        <p>
-            Adquirir cafe en CafeLove significa que tu dinero va
-            directamente a manos responsables.
-        </p>
-
-
-        <h2>Pasion por el cafe</h2>
-        <p>
-            Nos apasiona el cafe, por lo que siempre trabajamos por servirte de calidad.
-        </p>
-    </section>
-    <section>
-        <img src="./assets/Open Doodles - Dynamic Duo.png" alt="Hombre abraza cafe">
-
-        <h3>¡Inicia tu dia en compania del mejor cafe!</h3>
-        <p>Ordena tu cafe a domicilio o busca tu CL mas cercano!</p>
-
-
-        <form action="">
-            <label for="email">Correo electronico</label> <br>
-            <input type="email" id="email" class="" /> <br>
-
-            <button type="submit"> Enviar</button>
-        </form>
-    </section>
-    <!--ACA COMIENZA EL PIE DE PAGINA-->
-    <section>
-
-        <div>
-            <h2>Sobre mi</h2>
-            <p>Pablo Medrano</p>
-            <p>Desarrolador y diseñador web. Creo webs a medida para ayudar a las personas a estar mas conectadas</p>
-            <div>
-                <h2>SIGUEME EN MIS REDES</h2>
-                <div class="red-social">
-                    <a href="https://www.facebook.com" target="_blank"> <img
-                            src="./assets/50730-99989-Facebook-app-logo-xl.jpg" alt="facebook"></a>
-                    <a href="https://www.instagram.com" target="_blank"> <img
-                            src="./assets/instagram-social-media-icon-design-template-vector-png_126996.png"
-                            alt="instagram"></a>
-                    <a href="https://wa.me/543755230223" target="__blank"> <img src="./assets/unnamed.webp"
-                            alt="WhatsApp"></a>
+                        <div class="card-body">
+                            <h5 class="titulo-tarjeta">Cultivo natural y responsable</h5>
+                            <p class="texto-tarjeta">
+                                Trabajando con caficultores responsables que usan tratamientos
+                                ecologicos.
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="tarjeta">
+                        <div title="Granos de cafe" class="code"
+                            style="background-image: url(./assets/rsz_granos_de_cafe.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="titulo-tarjeta">Comercio justo</h5>
+                            <p class="texto-tarjeta">
+                                Adquirir cafe en Code Cafe significa que tu dinero va
+                                directamente a manos responsables.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="tarjeta">
+                        <div title="Bartender sirviendo cafe" class="code"
+                            style="background-image: url(./assets/rsz_kh.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="titulo-tarjeta">Pasion por el cafe</h5>
+                            <p class="texto-tarjeta">
+                                Nos apasiona el cafe, por lo que siempre trabajamos por
+                                servirte cafe de calidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-sm-8 col-md-5 col-lg-5"><img src="./assets/Open Doodles - Dynamic Duo.png "
+                        title="Persona abrazando taza de cafe" /></div>
+                <div class="col-12 col-sm-6">
+                    <h3>¡Inicia tu dia en compania del mejor cafe!</h3>
+                    <p class="texto">¡Bienvenido a Code Caffe! Somos un cafe ubicado en Posadas, Misiones, Argentina.
+                        Nuestro objetivo es brindarte una experiencia unica en cada taza, ofreciendote deliciosos cafes
+                        y un ambiente muy especial. ¡Ven y disfruta de nuestro cafe de calidad y servicio excepcional.
+                        <br>
+                        ¡Ordena tu cafe a domicilio o busca tu CC mas cercano!
+                    </p>
 
-    <footer>
+                </div>
+            </div>
 
-        <div>
-            <small>&copy; 2023 <b> Pablo Medrano</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </section>
+    <!--Tira de productos-->
+    <section>
+        <div class="container mt-5 mb-5" id="stripe">
+            <div class="tira de productos">
+                <div class="stripe-container">
+                    <div class="tar">
+                        <div title="Taza de expreso" class="code" style="background-image: url(./assets/1.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Expreso</h5>
+                            <span class="badge bg-info text-dark">$200</span>
+
+                        </div>
+                    </div>
+                    <div class="tar">
+                        <div title="Taza de Americano" class="code" style="background-image: url(./assets/2.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Americano</h5>
+                            <span class="badge bg-info text-dark">$250</span>
+                        </div>
+                    </div>
+                    <div class="tar">
+                        <div title="Vaso de coctel" class="code" style="background-image: url(./assets/3.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Coctel</h5>
+                            <span class="badge bg-info text-dark">$400</span>
+                        </div>
+                    </div>
+                    <div class="tar">
+                        <div title="Vaso de frappe" class="code" style="background-image: url(./assets/4.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Frappe</h5>
+                            <span class="badge bg-info text-dark">$350</span>
+                        </div>
+                    </div>
+                    <div class="tar">
+                        <div title="Todas las variedades de cafe" class="code"
+                            style="background-image: url(./assets/jon-tyson-uJ_GU9hwWgU-unsplash.jpg)">
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nuestras Variedades</h5>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class=" slider">
+                <div class="slider-container">
+                    <div class="image-container" style="background:url(./assets/cafe2.jpg);">
+                    </div>
+                    <div class="image-container" style="background:url(./assets/cafe3.jpg);">
+                    </div>
+                    <div class="image-container" style="background:url(./assets/cafe4.jpg);">
+                    </div>
+                    <div class="image-container" style="background:url(./assets/cafe5.jpg);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="fin">
+
+        <p>
+            ¡Gracias por elegirnos Vuelve pronto!
+        </p>
+    </div>
+    <!--ACA COMIENZA EL PIE DE PAGINA-->
+    <footer class="pie-pagina">
+
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="./index.html"><img src="./assets/logo.jpg" title="Love to Code and Coffee">
+                    </a>
+                    <h1> CODE CAFFE</h1>
+                </figure>
+            </div>
+            <div class="box">
+
+                <p>Desarrolador y diseñador web. Creo webs a medida para ayudar a las personas a estar mas conectadas
+                </p>
+                <div class="box">
+
+                    <div class="red-social">
+                        <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook" title="facebook"></a>
+                        <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"
+                            title="instagram"></a>
+                        <a href="https://wa.me/543755709884" target="__blank" class="fa fa-whatsapp"
+                            title="whatsapp"></a>
+                    </div>
+
+                </div>
+            </div>
+            <footer>
+
+        </div>
+        <div class="grupo-2">
+            <small class="derechos">&copy; 2023 <b> Pablo Medrano</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/88fa932321.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
