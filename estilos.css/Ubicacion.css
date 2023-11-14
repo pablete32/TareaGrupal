@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+
+
+body{ 
+    background-color: rgba(255, 228, 196, 0.073);
+}
+
+i{ 
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.a { 
+    color: #8b535c;
+    text-decoration: none;
+}
+
+.mapa{ 
+    padding-right: 10px;
+}
+
+h1{ 
+    text-align: center;
+    background-color: #fce6ea; 
+    color: #8b535c;
+    font-family: "Agbalumo";
+    padding: 20px; 
+    background-image: url(cafecitos.png);
+}
+
+h3{ 
+    background-color: #fce6ea; 
+    color: #8b535c;
+    font-family: "Agbalumo";
+    justify-content: center;
+    text-align: center;
+    width: 100%;;
+}
+h4{ 
+    font-family: "Dosis";
+    color: rgb(56, 66, 66);
+}
+td {  
+    align-items: center;
+}
+
+li{   
+    list-style: none;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-right: 20px;
+    }
+
+.pie-pagina {
+    width: 100%;
+    background-color: #3d6868;
+    padding-top: 2rem;
+    margin-top: 60px;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 15px 0px;
+}
+
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 150px;
+    height: 150px;
+
+}
+
+
+
+.pie-pagina .grupo-1 .box p {
+    color: #f1afaf;
+    margin-bottom: 40px;
+    padding-top: 55px;
+
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #c25353;
+    margin-right: 30px;
+    background-color: #f1afaf;
+    text-align: center;
+    border-radius: 25px;
+    
+
+}
+
+footer {
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+    position:relative;
+    width: 100%;
+}
+
+.grupo-2 {
+    background: rgb(33, 85, 99);
+    width: 100%;
+}
+.nav {
+    background: #f1BCC4;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 55px;
+    font-family: "Agbalumo";
+}
+.logo {
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 55px;
+    padding-bottom: 3px;
+    border-radius: 10px;}
