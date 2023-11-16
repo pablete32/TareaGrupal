@@ -1,7 +1,4 @@
 
-.imagen{
-    width: 50 px;
-}
 
 .titulo{
     text-align: center;
@@ -16,18 +13,10 @@
 .centrar{
     text-align: center;
     font-family: 'Dancing Script',cursive;
-    background-color:#FFFCFA;
+    background-color:#dc6378;
 
 }
 
-.padre{
-    display: flex;
-}
-
-.imagen{ 
-    width: 400px;
-    height: 400px;
-}
 
 .nav{
     background: #f1BCC4;
@@ -61,8 +50,31 @@ a{
 
 }
 
-.pie{
-    text-align: center 3d6868; color:#3d6868
+.formulario{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Dancing Script',cursive;
+    font-size: 30px;
+}
+
+.bob{
+    text-align: center;
+    width: 90px;
+    height: 25px;
+    font-family: 'Dancing Script',cursive;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px
+}
+
+
+.formul{
+    font-size: 20px;
+    font-family: 'Dancing Script',cursive; 
+    text-overflow: clip;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #FFFCFA;
 }
 
 
@@ -125,13 +137,9 @@ footer {
     background: rgb(33, 85, 99);
     width: 100%;
 
-}
 
+}
 
 .fuente{
-    color:#dc6378;
-
+    color:#f1BCC4
 }
-
-
-
